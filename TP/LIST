@@ -1,0 +1,27 @@
+    List<double> doubles = new List<double> { 2.0, 2.1, 2.2, 2.3 };
+            double valor = doubles.First();
+            Console.WriteLine(valor);
+            Console.ReadKey();
+
+            List<double> doubles = new List<double> { 2.0, 2.1, 2.2, 2.3 };
+            double valor = doubles.Last();
+            Console.WriteLine(valor);
+            Console.ReadKey();
+            List<double> doubles = new List<double> { 2.0, 2.1, 2.2, 2.3 };
+            double valor = doubles.ElementAt(2);
+            Console.WriteLine(valor);
+            Console.ReadKey();
+            List<double> doubles = new List<double> { 2.0, 2.1, 2.2, 2.3 };
+            double valor = doubles.Single(num=> num.Equals(2.0));
+            Console.WriteLine(valor);
+            Console.ReadKey();
+            List<double> doubles = new List<double> { 2.0, 2.1, 2.2, 2.3 };
+            double valor = doubles.Single(num => num.Equals(2.2));
+            Console.WriteLine(valor);
+            Console.ReadKey();
+
+            List<string> palabras = new List<string> { "perro", "gato", "pelota", "pato", "pico", "auto" };
+            string palabra = palabras.First(p => p.Length == 4);
+
+            Console.WriteLine(palabra);
+            Console.ReadKey();
